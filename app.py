@@ -12,7 +12,7 @@ tree_facts = [
 
 @app.route('/')
 def home():
-    return "🌳 welcome to vishvendar panwar!"
+    return "🌳 hamara bhai vishvendar panwar!"
 
 @app.route('/tree', methods=['GET'])
 def get_random_fact():
